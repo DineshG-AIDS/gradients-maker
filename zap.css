@@ -1,0 +1,12 @@
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: rgba(35, 31, 31, 0.975);
+}
