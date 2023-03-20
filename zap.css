@@ -9,4 +9,12 @@ html {
 
 body {
   background-color: rgba(35, 31, 31, 0.975);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+h1:hover {
+  color: rgb(193, 91, 36);
 }
