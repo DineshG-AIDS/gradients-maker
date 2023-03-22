@@ -270,7 +270,7 @@ span {
   animation-duration: 3s;
   animation-name: animationgradienttitle;
   animation-iteration-count: infinite;
-  animation-fill-mode: backwards;
+  animation-fill-mode: forwards;
   position: absolute;
   top: 25rem;
   left: 14rem;
