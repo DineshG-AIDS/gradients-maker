@@ -261,9 +261,10 @@ span {
   height: 21rem;
   background: linear-gradient(
     90deg,
-    hsla(57, 98%, 50%, 1) 0%,
-    hsla(325, 69%, 56%, 1) 100%
+    hsla(33, 100%, 53%, 1) 0%,
+    hsla(58, 100%, 68%, 1) 100%
   );
+
   background-size: 1600px 200px;
   -webkit-background-clip: class;
   -webkit-text-fill-color: transparent;
@@ -287,7 +288,7 @@ span {
   white-space: nowrap;
   overflow: hidden;
   cursor: default;
-  animation: typing 5s steps(35), cursor 0.4s steps(18) alternate;
+  animation: typing 5s steps(35) infinite, cursor 0.4s steps(18) alternate;
 }
 .laptxt2 {
   font-family: ffv12;
@@ -301,7 +302,7 @@ span {
   cursor: default;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 5s steps(35), cursor 0.4s steps(18) alternate;
+  animation: typing 5s steps(35) infinite, cursor 0.4s steps(18) alternate;
 }
 @keyframes cursor {
   50% {
@@ -323,4 +324,93 @@ span {
   animation-name: anim1-1;
   animation-duration: 3s;
   animation-iteration-count: infinite;
+}
+@media screen and (max-width: 600px) {
+  .midtxt {
+    font-size: 6rem;
+    position: absolute;
+    top: 25rem;
+    left: 3rem;
+    width: 100%;
+  }
+  .text {
+    position: absolute;
+    left: 40%;
+    /* transform: translate(-50%); */
+    font-size: 2rem;
+  }
+  .lg {
+    width: 6rem;
+    height: 4rem;
+  }
+  .ltxt {
+    width: 0;
+    height: 0;
+  }
+  .imgs2 {
+    width: 0;
+    height: 0;
+  }
+  .imgs21 {
+    width: 0;
+    height: 0;
+  }
+  .min {
+    width: 0;
+    height: 0;
+  }
+  .min1 {
+    width: 0;
+    height: 0;
+  }
+  .laptxt1 {
+    width: 0;
+    border-right: 0;
+    color: white;
+  }
+  .laptxt2 {
+    width: 0;
+    border-right: 0;
+    color: white;
+  }
+  .midt2 {
+    font-size: 1.5 rem;
+    width: 100%;
+    position: absolute;
+    left: 8rem;
+  }
+  span {
+    font-size: 0;
+  }
+  .scrl {
+    position: absolute;
+    top: 90%;
+    left: 45%;
+  }
+  .btn {
+    color: black;
+    background: rgba(255, 255, 255, 0.871);
+    padding: 0;
+    text-decoration: none;
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+    font-size: 0;
+    border: 0 solid black;
+    border-radius: 0, 5rem;
+  }
+  /* .min {
+    position: absolute;
+    top: 4rem;
+  } */
+  /* .min1 {
+    position: absolute;
+    top: 8rem;
+    left: 21.5rem;
+  }
+  .imgs21 {
+    position: absolute;
+    top: 2rem;
+    left: 19rem;
+  } */
 }
