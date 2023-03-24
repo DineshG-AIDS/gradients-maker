@@ -171,8 +171,8 @@ body {
   letter-spacing: 0.2rem;
   background: linear-gradient(
     90deg,
-    hsla(17, 95%, 50%, 1) 0%,
-    hsla(42, 94%, 57%, 1) 100%
+    hsla(22, 100%, 78%, 1) 0%,
+    hsla(2, 78%, 62%, 1) 100%
   );
   background-size: 1600px 200px;
   -webkit-background-clip: text;
@@ -181,12 +181,12 @@ body {
   animation-name: animationgradienttitle;
   animation-iteration-count: infinite;
   animation-fill-mode: forwards;
-  box-shadow: 0 0 0.5rem rgb(255, 115, 0), 0 0 2rem rgb(255, 106, 0);
+  box-shadow: 0 0 0.5rem rgb(120, 117, 114), 0 0 2rem rgb(111, 107, 104);
 }
 .btn:hover {
-  box-shadow: 0 0 0.5rem rgba(255, 115, 0, 0.788),
-    0 0 2rem rgba(255, 115, 0, 0.842), 0 0 1rem rgba(255, 115, 0, 0.825),
-    0 0 1rem rgba(255, 115, 0, 0.852), 0 0 2rem rgba(255, 115, 0, 0.851);
+  box-shadow: 0 0 0.5rem rgba(255, 115, 0, 0.718),
+    0 0 2rem rgba(255, 115, 0, 0.733), 0 0 1rem rgba(255, 115, 0, 0.662),
+    0 0 1rem rgba(255, 115, 0, 0.775), 0 0 2rem rgba(255, 115, 0, 0.732);
 }
 .midt2 {
   font-family: ffv;
@@ -273,7 +273,7 @@ span {
   line-height: 5rem;
   line-break: auto;
   top: 60%;
-  left: 8%;
+  left: 9%;
   cursor: default;
 }
 
@@ -328,12 +328,16 @@ span {
   z-index: -10;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+  body {
+    margin: 2rem;
+    /* padding: ; */
+  }
   .midtxt {
-    font-size: 9rem;
+    font-size: 7rem;
     position: absolute;
     top: 25rem;
-    left: 8rem;
+    left: 10%;
     width: 100%;
   }
   .grd {
@@ -343,8 +347,8 @@ span {
     height: 28rem;
     filter: blur(20px);
     position: absolute;
-    left: 35%;
-    top: 30%;
+    left: 30%;
+    top: 25%;
 
     background: linear-gradient(
       90deg,
@@ -402,18 +406,18 @@ span {
     color: white;
   }
   .midt2 {
-    font-size: 1.5 rem;
+    font-size: 1.2rem;
     width: 100%;
     position: absolute;
-    left: 8rem;
+    left: 2rem;
   }
   span {
     font-size: 0;
   }
   .scrl {
     position: absolute;
-    top: 90%;
-    left: 50%;
+    top: 96%;
+    left: 45%;
   }
   .btn {
     color: black;
@@ -430,7 +434,7 @@ span {
   .midt2 {
     position: absolute;
     left: 30%;
-    top: 70%;
+    top: 80%;
   }
   /* .min {
     position: absolute;
