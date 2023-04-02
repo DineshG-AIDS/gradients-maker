@@ -3,6 +3,7 @@ let copyBtn = document.getElementById("copy-btn");
 let outputColor = document.getElementById("output-color");
 let outputCode = document.getElementById("output-code");
 let hexString = "0123456789abcdef";
+let secbg = document.querySelector(".midl");
 
 let randomColor = () => {
   let hexCode = "#";
@@ -18,6 +19,7 @@ let generateGrad = () => {
   let angle = Math.floor(Math.random() * 360);
   outputColor.style.background = `linear-gradient(${angle}deg, ${colorOne}, ${colorTwo})`;
   outputCode.value = `background: linear-gradient(${angle}deg, ${colorOne}, ${colorTwo});`;
+  secbg.style.background = `linear-gradient(${angle}deg, ${colorOne}, ${colorTwo})`;
 };
 
 copyBtn.addEventListener("click", () => {
